@@ -1,0 +1,130 @@
+.home-container {
+  padding: 0;
+  background-color: #f8fdff;
+  min-height: calc(100vh - 160px);
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background: linear-gradient(to right, #0077b6, #023e8a);
+  color: #fff;
+  gap: 2rem;
+}
+
+.hero-content {
+  max-width: 50%;
+  text-align: left;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+.hero-image-container {
+  max-width: 100%;
+}
+
+.hero-image {
+  width: 600px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+/* Sections */
+.features-section, .how-it-works-section, .testimonials-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.features-section h2, .how-it-works-section h2, .testimonials-section h2 {
+  color: #023e8a;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Features Section */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  color: #0077b6;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+  background-color: #f0f8ff;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.step {
+  text-align: center;
+  max-width: 200px;
+}
+
+.step-number {
+  background-color: #0077b6;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 1.5rem;
+  font-weight: bold;
+}
+
+/* Testimonials Section */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  color: #0077b6;
+  margin-top: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+}
